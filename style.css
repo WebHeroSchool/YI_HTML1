@@ -1,6 +1,8 @@
-.font1 {
-        font-family: Roboto;
+a {font-family: Roboto;
 }
-.font2 {
-        font-family: PT Serif;
+p {font-family: Roboto;
+}
+button {font-family: Roboto;
+}
+h1 {font-family:PT Serif;
 }
