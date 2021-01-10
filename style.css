@@ -1,11 +1,5 @@
-a {font-family: 'Roboto', sans-serif;
+.menu__item {font-family: 'Roboto', sans-serif;
 
 }
-p {font-family: 'Roboto', sans-serif;
-
-}
-button {font-family: 'Roboto', sans-serif;
-
-}
-h1 {font-family: 'PT Serif', serif;
+.main-content__title {font-family: 'PT Serif', serif;
 }
