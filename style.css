@@ -5,6 +5,7 @@
 .header{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 206px;
 }
 .logo,.menu{
   display: inline-block;
@@ -70,14 +71,29 @@ background: #0056EC;
 left: 0;
 }
 .main {
-width: 30%;
+padding: 0 55% 280px 0;
+background: top right no-repeat url(img/main.svg);
 }
 .main__title {
 font: bold 66px/87px 'PT Serif', arial, helvetica, sans-serif;
+margin: 0 0 40px 0;
 }
 .main__description {
 font: bold 22px/26px 'Robotoregular', arial, helvetica, sans-serif;
+margin: 0 0 41px 0;
 }
 .main__button {
 font: bold 18px/21px 'robotomedium', arial, helvetica, sans-serif;
+color: #fff;
+background: #0056EC;
+padding: 15px 21px;
+text-decoration: none;
+border-radius: 4px;
+transition: opacity 0.5s;
+}
+.main__button:hover {
+opacity: 0.5;
+}
+.main__title-text_highlight {
+  background: #ECF3FF;
 }
