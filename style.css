@@ -1,5 +1,8 @@
-#menu__toggle {
+#checkbox {
  opacity: 0;
+}
+.menu__burger {
+display: none;
 }
 .body {
  margin: 0;
@@ -185,12 +188,8 @@ margin-bottom: 55px;
 }
 }
 @media (max-width: 768px) {
-  .menu__btn_line {
-  width: 25px;
-  height: 3px;
-  color: #0056EC;
-  cursor: pointer;
-  z-index: 1;
+  .menu__line {
+  background: url(img/menu-line.svg);
   }
   .wrapper {
   width: 87%;
