@@ -1,6 +1,4 @@
-#checkbox {
- opacity: 0;
-}
+
 .menu__burger {
 display: none;
 }
@@ -188,8 +186,13 @@ margin-bottom: 55px;
 }
 }
 @media (max-width: 768px) {
+  #checkbox:checked ~ .menu__line {
+  display: none;
+  }
   .menu__line {
-  background: url(img/menu-line.svg);
+  background:url(img/menu-line.svg);
+  width: 25px;
+  height: 17px;
   }
   .wrapper {
   width: 87%;
