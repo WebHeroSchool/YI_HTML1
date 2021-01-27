@@ -186,8 +186,13 @@ margin-bottom: 55px;
 }
 }
 @media (max-width: 768px) {
-  #checkbox:checked ~ .menu__line {
-  display: none;
+  #checkbox:checked ~ .menu__burger_item {
+  font: normal 30px/35px 'Robotoregular', arial, helvetica, sans-serif;
+  margin-bottom: 24px;
+  width: 20%;
+  background-color: #fff; /* чтобы фон экрана был белым, не уверена */
+  background: left no-repeat url(img/menu-cross.svg); /* параметры картинки потом подгоню, если вообще верно делаю */
+  z-index: 1;
   }
   .menu__line {
   background:url(img/menu-line.svg);
