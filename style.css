@@ -151,7 +151,7 @@ margin-bottom: 95px;
 font: normal 14px/16px 'robotomedium', arial, helvetica, sans-serif;
 }
 .main {
-padding: 100px 57% 100px 0;
+padding: 135px 57% 100px 0;
 background-size: 56%;
 background-position: 101% 74%;
 }
@@ -205,7 +205,7 @@ margin-bottom: 55px;
   visibility: visible;
   left: 0;
   }
-  .burger-menu__btn {
+  .menu-burger__btn {
     display: flex;
     align-items: center;
     position: fixed;
@@ -216,9 +216,9 @@ margin-bottom: 55px;
     cursor: pointer;
     z-index: 1;
   }
-  .burger-menu__btn > span,
-  .burger-menu__btn > span::before,
-  .burger-menu__btn > span::after {
+  .menu-burger__btn > span,
+  .menu-burger__btn > span::before,
+  .menu-burger__btn > span::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -226,11 +226,11 @@ margin-bottom: 55px;
     background-color: #0056EC;
     transition-duration: .25s;
 }
-.menu__btn > span::before {
+.menu-burger__btn > span::before {
   content: '';
   top: -8px;
 }
-.menu__btn > span::after {
+.menu-burger__btn > span::after {
   content: '';
   top: 8px;
 }
@@ -252,12 +252,15 @@ margin-bottom: 55px;
 .menu-burger__item {
   display: block;
   font: normal 30px/35px 'Robotoregular', arial, helvetica, sans-serif;
+  color: #000;
   margin-bottom: 24px;
   text-decoration: none;
   transition-duration: .25s;
+  transition: opacity 0.5s;
 }
 .menu-burger__item:hover {
   background-color: #CFD8DC;
+  opacity: 0.5;
 }
   .wrapper {
   width: 87%;
