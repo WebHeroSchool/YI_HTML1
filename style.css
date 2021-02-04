@@ -1,6 +1,11 @@
 #checkbox {
   opacity: 0;
 }
+@keyframes button {
+  to {
+    padding: 16px 27px;
+    }
+}
 .menu-burger {
   display: none;
 }
@@ -101,7 +106,10 @@ border-radius: 4px;
 transition: opacity 0.5s;
 }
 .main__button:hover {
-opacity: 0.5;
+  animation: button .2s;
+  color: #0056EC;
+  background: #fff;
+  border: solid 1px #0056EC;
 }
 .main__title-text_highlight {
   background: #ECF3FF;
